@@ -1,0 +1,225 @@
+{
+  "title": "Gestione corsi di formazione",
+  "description": "Catalogo interno per consultare i corsi, verificare date e disponibilità e inserire nuove sessioni. Tutti i nomi e i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle sessioni formative e dei posti disponibili.",
+      "metrics": [
+        {
+          "label": "Corsi a catalogo",
+          "value": "18"
+        },
+        {
+          "label": "Sessioni programmate",
+          "value": "7"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "42"
+        },
+        {
+          "label": "Iscrizioni aperte",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Laboratorio di scrittura chiara",
+          "Lumo Serra",
+          "12/09/2026",
+          "8"
+        ],
+        [
+          "Strumenti digitali quotidiani",
+          "Vela Neri",
+          "18/09/2026",
+          "4"
+        ],
+        [
+          "Organizzare il lavoro in gruppo",
+          "Nubi Valli",
+          "24/09/2026",
+          "11"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Esplora e filtra le proposte formative disponibili.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Area",
+        "Docente",
+        "Durata",
+        "Modalità",
+        "Prossima data",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Laboratorio di scrittura chiara",
+          "Comunicazione",
+          "Lumo Serra",
+          "6 ore",
+          "In presenza",
+          "12/09/2026",
+          "8"
+        ],
+        [
+          "Strumenti digitali quotidiani",
+          "Competenze digitali",
+          "Vela Neri",
+          "4 ore",
+          "Online",
+          "18/09/2026",
+          "4"
+        ],
+        [
+          "Organizzare il lavoro in gruppo",
+          "Collaborazione",
+          "Nubi Valli",
+          "5 ore",
+          "In presenza",
+          "24/09/2026",
+          "11"
+        ],
+        [
+          "Introduzione ai dati aperti",
+          "Competenze digitali",
+          "Timo Riva",
+          "3 ore",
+          "Online",
+          "30/09/2026",
+          "6"
+        ],
+        [
+          "Accoglienza e ascolto attivo",
+          "Comunicazione",
+          "Mira Soli",
+          "4 ore",
+          "In presenza",
+          "06/10/2026",
+          "3"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "sessioni",
+      "title": "Sessioni programmate",
+      "description": "Consulta le date delle sessioni e la capienza residua.",
+      "metrics": [
+        {
+          "label": "Sessioni future",
+          "value": "7"
+        },
+        {
+          "label": "Posti assegnati",
+          "value": "36"
+        },
+        {
+          "label": "Posti liberi",
+          "value": "42"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Orario",
+        "Sede o modalità",
+        "Capienza",
+        "Iscritti",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Laboratorio di scrittura chiara",
+          "Lumo Serra",
+          "12/09/2026",
+          "09:30",
+          "Sala Bruma",
+          "16",
+          "8",
+          "8"
+        ],
+        [
+          "Strumenti digitali quotidiani",
+          "Vela Neri",
+          "18/09/2026",
+          "14:00",
+          "Online",
+          "14",
+          "10",
+          "4"
+        ],
+        [
+          "Organizzare il lavoro in gruppo",
+          "Nubi Valli",
+          "24/09/2026",
+          "10:00",
+          "Sala Lieve",
+          "18",
+          "7",
+          "11"
+        ],
+        [
+          "Introduzione ai dati aperti",
+          "Timo Riva",
+          "30/09/2026",
+          "09:00",
+          "Online",
+          "12",
+          "6",
+          "6"
+        ],
+        [
+          "Accoglienza e ascolto attivo",
+          "Mira Soli",
+          "06/10/2026",
+          "13:30",
+          "Sala Bruma",
+          "12",
+          "9",
+          "3"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-sessione",
+      "title": "Aggiungi una sessione",
+      "description": "Inserisci una nuova sessione nel calendario formativo.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Orario",
+        "Sede o modalità",
+        "Capienza"
+      ],
+      "rows": [],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Orario",
+        "Sede o modalità",
+        "Capienza"
+      ]
+    }
+  ]
+}
